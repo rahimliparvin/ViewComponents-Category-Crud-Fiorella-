@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div style="padding-left:200px" class="container">
+    <h1>Edit</h1>
+    
+
+        <div class="slider-content">
+             <img src="~/img/@Model.Image" />
+        </div>
+
+    <form class="forms-sample">
+        <input class="form-control" type="file" id="customFile">
+        <div class="my-3">
+            <button type="submit" class="btn btn-success">Submit</button>
+            <a type="button" asp-action="Index" class="btn btn-light">Cancel</a>
+        </div>
+    </form>
+
+</div>
+

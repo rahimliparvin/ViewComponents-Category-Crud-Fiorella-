@@ -1,0 +1,16 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Create Category";
+}
+
+<div style="padding-left:200px" class="container my-5">
+
+<form class="forms-sample" asp-action="Create">
+    <input class="form-control" type="text" id="customFile" asp-for="Name" />
+    <div class="my-3">
+        <button type="submit" class="btn btn-success">Submit</button>
+        <a type="button" asp-action="Index" class="btn btn-light">Cancel</a>
+    </div>
+</form>
+</div>
+
